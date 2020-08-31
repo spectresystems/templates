@@ -28,14 +28,12 @@
       },
       "copyright": {
         "type": "parameter",
-        "isRequired": true,
         "defaultValue": "Spectre Systems AB",
         "replaces":"Spectre Systems AB",
         "description": "The copyright holder"
       },
       "github-org": {
         "type": "parameter",
-        "isRequired": true,
         "defaultValue": "spectresystems",
         "replaces": "spectresystems",
         "description": "The GitHub organization"
