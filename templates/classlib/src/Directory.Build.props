@@ -18,12 +18,11 @@
     <Copyright>Spectre Systems AB</Copyright>
     <Authors>Patrik Svensson</Authors>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/spectresystems/spectre.console</RepositoryUrl>
-    <PackageIcon>small-logo.png</PackageIcon>
+    <RepositoryUrl>https://github.com/spectresystems/MyClassLib</RepositoryUrl>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageProjectUrl>https://github.com/spectresystems/spectre.console</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/spectresystems/MyClassLib</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>https://github.com/spectresystems/spectre.console/releases</PackageReleaseNotes>
+    <PackageReleaseNotes>https://github.com/spectresystems/MyClassLib/releases</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Label="Source Link">
