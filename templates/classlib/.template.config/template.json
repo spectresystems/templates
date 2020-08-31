@@ -38,6 +38,18 @@
         "replaces": "spectresystems",
         "description": "The GitHub organization"
       },
+      "author": {
+        "type": "parameter",
+        "defaultValue": "Patrik Svensson",
+        "replaces": "Patrik Svensson",
+        "description": "The author of the library"
+      },
+      "sponsor": {
+        "type": "parameter",
+        "defaultValue": "patriksvensson",
+        "replaces": "patriksvensson",
+        "description": "The GitHub Sponsors username"
+      },
       "nameLower":{
         "type": "generated",
         "generator": "casing",
