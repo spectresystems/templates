@@ -1,12 +1,10 @@
-Spectre.Templates
-
-# Installation
+## Installation
 
 ```
 > dotnet new -i Spectre.Templates
 ```
 
-# Usage
+## Usage
 
 ```
 > dotnet new spectre-classlib --name MyAwesomeProject
