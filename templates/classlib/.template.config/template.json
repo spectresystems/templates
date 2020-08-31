@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Patrik Svensson",
+    "classifications": [ "Common", "Library" ],
+    "groupIdentity":"SpectreSystems.Templates.ClassLibrary",
+    "identity": "SpectreSystems.Templates.ClassLibrary.CSharp",
+    "name": "Spectre Systems Class Library",
+    "shortName": "spectre-classlib",
+    "sourceName": "MyClassLib",
+    "preferNameDirectory": true
+  }
