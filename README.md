@@ -7,7 +7,7 @@
 ## Usage
 
 ```
-> dotnet new spectre-classlib --name MyAwesomeProject --copyright "Awesome Company" --github-org "awesome-company"
+> dotnet new spectre-classlib --name MyAwesomeProject
 ```
 
 ### Parameters
