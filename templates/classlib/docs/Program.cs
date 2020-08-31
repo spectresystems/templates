@@ -12,7 +12,7 @@ namespace Docs
             await Bootstrapper.Factory
                 .CreateWeb(args)
                 .AddSetting(Keys.Host, "spectresystems.github.io")
-                .AddSetting(Keys.LinkRoot, "/MyClassLib")
+                .AddSetting(Keys.LinkRoot, "/myclasslib")
                 .AddSetting(Keys.LinksUseHttps, true)
                 .AddSetting(Constants.EditLink, ConfigureEditLink())
                 .ConfigureSite("spectresystems", "MyClassLib", "main")

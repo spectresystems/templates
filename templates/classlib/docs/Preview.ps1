@@ -1,1 +1,1 @@
-dotnet run -- preview --virtual-dir "MyClassLib"
+dotnet run -- preview --virtual-dir "myclasslib"

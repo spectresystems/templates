@@ -40,3 +40,7 @@ After that, running the build is as easy as writing:
 ```
 > dotnet cake
 ```
+
+## Copyright
+
+Copyright (c) 2020 Spectre Systems AB

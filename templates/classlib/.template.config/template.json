@@ -7,5 +7,47 @@
     "name": "Spectre Systems Class Library",
     "shortName": "spectre-classlib",
     "sourceName": "MyClassLib",
-    "preferNameDirectory": true
+    "preferNameDirectory": true,
+    "sources": [
+      {
+        "modifiers": [
+          {
+            "condition": "(no-docs)",
+            "exclude": [
+              "docs/**/*"
+            ]
+          }
+        ]
+      }
+    ],
+    "symbols":{
+      "no-docs":{
+        "type": "parameter",
+        "dataType":"bool",
+        "defaultValue": "false"
+      },
+      "copyright": {
+        "type": "parameter",
+        "isRequired": true,
+        "defaultValue": "Spectre Systems AB",
+        "replaces":"Spectre Systems AB",
+        "description": "The copyright holder"
+      },
+      "github-org": {
+        "type": "parameter",
+        "isRequired": true,
+        "defaultValue": "spectresystems",
+        "replaces": "spectresystems",
+        "description": "The GitHub organization"
+      },
+      "nameLower":{
+        "type": "generated",
+        "generator": "casing",
+        "parameters": {
+          "source":"name",
+          "toLower": true
+        },
+        "replaces":"myclasslib"
+      }
+    }
   }
