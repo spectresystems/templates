@@ -5,7 +5,7 @@
     <PackageId>Spectre.Templates</PackageId>
     <Title>Spectre Systems .NET Templates</Title>
     <Authors>Patrik Svensson</Authors>
-    <Description>Contains templates used by Spectre Systems</Description>
+    <Description>Contains custom dotnet templates for Spectre Systems</Description>
     <PackageTags>dotnet-new;templates</PackageTags>
     <TargetFramework>netstandard2.0</TargetFramework>
     <IncludeContentInPack>true</IncludeContentInPack>
