@@ -4,5 +4,5 @@ Preview the documentation locally by running the following
 from your favourite shell:
 
 ```
-> dotnet run -- preview --virtual-dir "MyClassLib"
+> dotnet run -- preview --virtual-dir "myclasslib"
 ```

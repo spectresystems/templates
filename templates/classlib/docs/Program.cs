@@ -15,7 +15,7 @@ namespace Docs
                 .AddSetting(Keys.LinkRoot, "/myclasslib")
                 .AddSetting(Keys.LinksUseHttps, true)
                 .AddSetting(Constants.EditLink, ConfigureEditLink())
-                .ConfigureSite("spectresystems", "MyClassLib", "main")
+                .ConfigureSite("spectresystems", "myclasslib", "main")
                 .ConfigureDeployment(deployBranch: "docs")
                 .AddShortcode("Children", typeof(ChildrenShortcode))
                 .AddPipelines()

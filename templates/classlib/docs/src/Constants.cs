@@ -1,4 +1,4 @@
-﻿namespace Docs
+namespace Docs
 {
     public static class Constants
     {
