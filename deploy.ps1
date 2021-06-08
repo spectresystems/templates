@@ -6,4 +6,4 @@ Remove-Item obj -Recurse
 dotnet pack --force
 
 Write-Host "Installing template..."
-dotnet new -i .\bin\Debug\Spectre.Templates.0.2.0.nupkg
+dotnet new -i .\bin\Debug\Spectre.Templates.0.3.0.nupkg
