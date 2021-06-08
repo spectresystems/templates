@@ -7,7 +7,7 @@ var configuration = Argument("configuration", "Release");
 Task("Build")
     .Does(context => 
 {
-    DotNetCoreBuild("./src/MyClassLib.sln", new DotNetCoreBuildSettings {
+    DotNetCoreBuild("./src/MyCliApp.sln", new DotNetCoreBuildSettings {
         Configuration = configuration,
         NoIncremental = context.HasArgument("rebuild"),
         MSBuildSettings = new DotNetCoreMSBuildSettings()
@@ -19,7 +19,7 @@ Task("Test")
     .IsDependentOn("Build")
     .Does(context => 
 {
-    DotNetCoreTest("./src/MyClassLib.sln", new DotNetCoreTestSettings {
+    DotNetCoreTest("./src/MyCliApp.sln", new DotNetCoreTestSettings {
         Configuration = configuration,
         NoRestore = true,
         NoBuild = true,
@@ -32,7 +32,7 @@ Task("Package")
 {
     context.CleanDirectory("./.artifacts");
 
-    context.DotNetCorePack($"./src/MyClassLib.sln", new DotNetCorePackSettings {
+    context.DotNetCorePack($"./src/MyCliApp.sln", new DotNetCorePackSettings {
         Configuration = configuration,
         NoRestore = true,
         NoBuild = true,

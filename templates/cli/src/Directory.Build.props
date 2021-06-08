@@ -6,7 +6,7 @@
     <DebugType>embedded</DebugType>
     <MinVerSkip Condition="'$(Configuration)' == 'Debug'">true</MinVerSkip>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <IsPackable>false</IsPackable>
+    <IsPackable>false</IsPackable>    
   </PropertyGroup>
 
   <PropertyGroup Label="Deterministic Build" Condition="'$(GITHUB_ACTIONS)' == 'true'">
@@ -14,16 +14,16 @@
   </PropertyGroup>
 
   <PropertyGroup Label="Package Information">
-    <Description>A library that makes it easier to create beautiful console applications.</Description>
+    <Description>A description.</Description>
     <Company>Spectre Systems AB</Company>
     <Copyright>Spectre Systems AB</Copyright>
     <Authors>Patrik Svensson</Authors>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/spectresystems/MyClassLib</RepositoryUrl>
+    <RepositoryUrl>https://github.com/spectresystems/MyCliApp</RepositoryUrl>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageProjectUrl>https://github.com/spectresystems/MyClassLib</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/spectresystems/MyCliApp</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>https://github.com/spectresystems/MyClassLib/releases</PackageReleaseNotes>
+    <PackageReleaseNotes>https://github.com/spectresystems/MyCliApp/releases</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Label="Source Link">

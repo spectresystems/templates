@@ -17,11 +17,11 @@ Now you can list available examples in this repository:
 ```
 > dotnet example
 
-╭─────────┬─────────────────────────────────┬─────────────╮
-│ Name    │ Path                            │ Description │
-├─────────┼─────────────────────────────────┼─────────────┤
-│ Example │ examples/Example/Example.csproj │ N/A         │
-╰─────────┴─────────────────────────────────┴─────────────╯
+╭───────────┬──────────────────────────────────────────────────────╮
+│ Example   │ Description                                          │
+├───────────┼──────────────────────────────────────────────────────┤
+│ Example   │ A simple example of MyClassLib.                      │
+╰───────────┴──────────────────────────────────────────────────────╯
 ```
 
 ## Building
@@ -43,4 +43,4 @@ After that, running the build is as easy as writing:
 
 ## Copyright
 
-Copyright (c) 2020 Spectre Systems AB
+Copyright (c) 2021 Spectre Systems AB
