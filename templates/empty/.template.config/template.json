@@ -4,7 +4,7 @@
     "classifications": [ "Common", "Empty" ],
     "groupIdentity":"SpectreSystems.Templates.Empty",
     "identity": "SpectreSystems.Templates.Empty.CSharp",
-    "name": "Spectre Systems CLI App",
+    "name": "Spectre Systems Empty Template",
     "shortName": "spectresystems-empty",
     "sourceName": "TheProject",
     "preferNameDirectory": true,
