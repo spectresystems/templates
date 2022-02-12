@@ -1,7 +1,7 @@
 {
     "$schema": "http://json.schemastore.org/template",
     "author": "Patrik Svensson",
-    "classifications": [ "Common", "Cli" ],
+    "classifications": [ "Common", "Console" ],
     "groupIdentity":"SpectreSystems.Templates.CliApp",
     "identity": "SpectreSystems.Templates.CliApp.CSharp",
     "name": "Spectre Systems CLI App",
