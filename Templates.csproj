@@ -5,7 +5,7 @@
     <Description>Contains custom dotnet templates for Spectre Systems</Description>
     <PackageTags>dotnet-new;templates</PackageTags>
     <PackageType>Template</PackageType>
-    <PackageId>Spectre.Templates</PackageId>
+    <PackageId>SpectreSystems.Templates</PackageId>
     <Company>Spectre Systems AB</Company>
     <Copyright>Spectre Systems AB</Copyright>
     <Authors>Patrik Svensson</Authors>
@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup Label="Package References">
-    <PackageReference Include="MinVer" PrivateAssets="All" Version="2.3.0" />
+    <PackageReference Include="MinVer" PrivateAssets="All" Version="2.5.0" />
   </ItemGroup>
 
   <Target Name="Versioning" BeforeTargets="MinVer">

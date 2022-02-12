@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Cake.MinVer</id>
+    <version>2.0.0</version>
+    <authors>C. Augusto Proiete &amp; Contributors</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>images\icon.png</icon>
+    <projectUrl>https://github.com/cake-contrib/Cake.MinVer</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/addin/cake-contrib-addin-medium.png</iconUrl>
+    <description>Cake add-in that makes MinVer available as a tool in Cake.</description>
+    <releaseNotes>https://github.com/cake-contrib/Cake.MinVer/releases/tag/v2.0.0</releaseNotes>
+    <copyright>Copyright 2020-2021 C. Augusto Proiete &amp; Contributors - Provided under the MIT License</copyright>
+    <tags>cake minver cake-addin cake-build cake-contrib addin script build augustoproiete augusto-proiete</tags>
+    <repository type="git" url="https://github.com/cake-contrib/Cake.MinVer.git" commit="4f3b38117b2dc7214aa802c2d53c0f5deb46cc45" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+      <group targetFramework="net5.0" />
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+</package>

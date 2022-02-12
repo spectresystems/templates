@@ -1,11 +1,11 @@
 {
     "$schema": "http://json.schemastore.org/template",
     "author": "Patrik Svensson",
-    "classifications": [ "Common", "Cli" ],
-    "groupIdentity":"SpectreSystems.Templates.CliApp",
-    "identity": "SpectreSystems.Templates.CliApp.CSharp",
-    "name": "Spectre Systems CLI App",
-    "shortName": "spectresystems-cli",
+    "classifications": [ "Common", "Library" ],
+    "groupIdentity":"SpectreSystems.Templates.ClassLibrary",
+    "identity": "SpectreSystems.Templates.ClassLibrary.CSharp",
+    "name": "Spectre Systems Class Library",
+    "shortName": "spectresystems-lib",
     "sourceName": "TheProject",
     "preferNameDirectory": true,
     "symbols":{

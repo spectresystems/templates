@@ -1,6 +1,22 @@
-# MyCliApp
+# MyClassLib
 
-Add some descriptive text about this CLI application.
+Add some descriptive text about this library here.
+
+## Running examples
+
+To see `MyClassLib` in action, install the 
+[dotnet-example](https://github.com/patriksvensson/dotnet-example)
+global tool.
+
+```
+> dotnet tool restore
+```
+
+Now you can list available examples in this repository:
+
+```
+> dotnet example
+```
 
 ## Building
 
