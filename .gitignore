@@ -1,6 +1,7 @@
 .artifacts/
 bin/
 obj/
+tools/
 .vs
 
 # Copied in by build script
