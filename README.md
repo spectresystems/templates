@@ -1,13 +1,13 @@
 ## Installation
 
 ```
-> dotnet new -i Spectre.Templates
+> dotnet new -i SpectreSystems.Templates
 ```
 
 ## New Class library
 
 ```
-> dotnet new spectre-classlib --name MyAwesomeProject
+> dotnet new spectresystems-lib --name MyAwesomeProject
 ```
 
 ### Parameters
@@ -31,7 +31,7 @@
 ## New CLI application
 
 ```
-> dotnet new spectre-cliapp --name MyAwesomeProject
+> dotnet new spectresystems-cli --name MyAwesomeProject
 ```
 
 ### Parameters
