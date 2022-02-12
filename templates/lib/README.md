@@ -1,10 +1,10 @@
-# MyClassLib
+# TheProject
 
-Add some descriptive text about this library here.
+Add some descriptive text about TheProject here.
 
 ## Running examples
 
-To see `MyClassLib` in action, install the 
+To see `TheProject` in action, install the 
 [dotnet-example](https://github.com/patriksvensson/dotnet-example)
 global tool.
 

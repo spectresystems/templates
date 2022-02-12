@@ -1,6 +1,6 @@
-# MyCliApp
+# TheProject
 
-Add some descriptive text about this CLI application.
+Add some descriptive text about TheProject.
 
 ## Building
 
