@@ -1,0 +1,52 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Patrik Svensson",
+    "classifications": [ "Common", "Console" ],
+    "groupIdentity":"SpectreSystems.Templates.Empty",
+    "identity": "SpectreSystems.Templates.Empty.CSharp",
+    "name": "Spectre Systems CLI App",
+    "shortName": "spectresystems-empty",
+    "sourceName": "TheProject",
+    "preferNameDirectory": true,
+    "symbols":{
+      "copyright": {
+        "type": "parameter",
+        "defaultValue": "Spectre Systems AB",
+        "replaces":"Spectre Systems AB",
+        "description": "The copyright holder"
+      },
+      "email": {
+        "type": "parameter",
+        "defaultValue": "hello@spectresystems.se",
+        "replaces": "email@example.com",
+        "description": "The contact email"
+      },
+      "github-org": {
+        "type": "parameter",
+        "defaultValue": "spectresystems",
+        "replaces": "spectresystems",
+        "description": "The GitHub organization"
+      },
+      "author": {
+        "type": "parameter",
+        "defaultValue": "Patrik Svensson",
+        "replaces": "Patrik Svensson",
+        "description": "The author of the library"
+      },
+      "sponsor": {
+        "type": "parameter",
+        "defaultValue": "patriksvensson",
+        "replaces": "patriksvensson",
+        "description": "The GitHub Sponsors username"
+      },
+      "nameLower":{
+        "type": "generated",
+        "generator": "casing",
+        "parameters": {
+          "source":"name",
+          "toLower": true
+        },
+        "replaces":"theproject"
+      }
+    }
+  }

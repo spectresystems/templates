@@ -15,16 +15,16 @@
   </PropertyGroup>
 
   <PropertyGroup Label="Package Information">
-    <Description>A library that makes it easier to create beautiful console applications.</Description>
+    <Description>A description of TheProject package.</Description>
     <Company>Spectre Systems AB</Company>
     <Copyright>Spectre Systems AB</Copyright>
     <Authors>Patrik Svensson</Authors>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/spectresystems/TheProject</RepositoryUrl>
+    <RepositoryUrl>https://github.com/spectresystems/theproject</RepositoryUrl>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageProjectUrl>https://github.com/spectresystems/TheProject</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/spectresystems/theproject</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>https://github.com/spectresystems/TheProject/releases</PackageReleaseNotes>
+    <PackageReleaseNotes>https://github.com/spectresystems/theproject/releases</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Label="Source Link">

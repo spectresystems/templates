@@ -5,23 +5,45 @@ tools/
 .vs
 
 # Copied in by build script
-templates/lib/.editorconfig
-templates/lib/.gitignore
-templates/lib/CODE_OF_CONDUCT.md
-templates/lib/LICENSE.md
-templates/lib/dotnet-tools.json
-templates/lib/global.json
-templates/lib/src/.editorconfig
-templates/lib/src/Directory.Build.props
-templates/lib/src/Directory.Build.targets
-templates/lib/src/TheProject.Tests/.editorconfig
-templates/cli/.editorconfig
-templates/cli/.gitignore
-templates/cli/CODE_OF_CONDUCT.md
-templates/cli/LICENSE.md
-templates/cli/dotnet-tools.json
-templates/cli/global.json
-templates/cli/src/.editorconfig
-templates/cli/src/Directory.Build.props
-templates/cli/src/Directory.Build.targets
-templates/cli/src/TheProject.Tests/.editorconfig
+# templates/lib/.editorconfig
+# templates/lib/.gitignore
+# templates/lib/CODE_OF_CONDUCT.md
+# templates/lib/LICENSE.md
+# templates/lib/dotnet-tools.json
+# templates/lib/global.json
+# templates/lib/src/.editorconfig
+# templates/lib/src/Directory.Build.props
+# templates/lib/src/Directory.Build.targets
+# templates/lib/src/TheProject.Tests/.editorconfig
+# templates/cli/.editorconfig
+# templates/cli/.gitignore
+# templates/cli/CODE_OF_CONDUCT.md
+# templates/cli/LICENSE.md
+# templates/cli/dotnet-tools.json
+# templates/cli/global.json
+# templates/cli/src/.editorconfig
+# templates/cli/src/Directory.Build.props
+# templates/cli/src/Directory.Build.targets
+# templates/cli/src/TheProject.Tests/.editorconfig
+# templates/empty/.editorconfig
+# templates/empty/.gitignore
+# templates/empty/CODE_OF_CONDUCT.md
+# templates/empty/LICENSE.md
+# templates/empty/dotnet-tools.json
+# templates/empty/global.json
+# templates/empty/src/.editorconfig
+# templates/empty/src/Directory.Build.props
+# templates/empty/src/Directory.Build.targets
+
+templates/*/.editorconfig
+templates/*/.gitignore
+templates/*/CODE_OF_CONDUCT.md
+templates/*/LICENSE.md
+templates/*/dotnet-tools.json
+templates/*/global.json
+templates/*/src/.editorconfig
+templates/*/src/Directory.Build.props
+templates/*/src/Directory.Build.targets
+templates/*/src/TheProject.Tests/.editorconfig
+templates/*/src/stylecop.json
+
