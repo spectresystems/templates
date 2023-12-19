@@ -1,7 +1,7 @@
 ## Installation
 
 ```
-> dotnet new -i SpectreSystems.Templates
+> dotnet new install SpectreSystems.Templates
 ```
 
 ## New Class library
