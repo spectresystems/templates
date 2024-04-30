@@ -1,26 +1,18 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
-name: Continuous Integration
-
-on:
-  push:
-    tags:
-      - '*'
-    branches:
-      - main
+name: Pull Request
+on: pull_request
 
 env:
-  # Set the DOTNET_SKIP_FIRST_TIME_EXPERIENCE environment variable to stop wasting time caching packages
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
-  # Disable sending usage data to Microsoft
   DOTNET_CLI_TELEMETRY_OPTOUT: true
 
 jobs:
 
   ###################################################
-  # Build
+  # BUILD
   ###################################################
 
-  publish:
+  build:
     name: Build
     if: "!contains(github.event.head_commit.message, 'skip-ci')"
     runs-on: ubuntu-latest
@@ -33,10 +25,8 @@ jobs:
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v4
 
-      - name: Publish
-        shell: bash
+      - name: Build
         run: |
           dotnet nuget locals http-cache --clear
           dotnet tool restore
-          dotnet cake --target="Publish" \
-            --nuget-key="${{secrets.NUGET_API_KEY}}"
+          dotnet cake

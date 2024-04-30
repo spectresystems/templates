@@ -77,3 +77,7 @@ packages
 
 # Windows
 Thumbs.db
+
+# macOS
+
+.DS_Store

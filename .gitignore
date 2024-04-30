@@ -1,8 +1,19 @@
+# Build scripts
 .artifacts/
+
+# Binaries
 bin/
 obj/
 tools/
+
+# Visual Studio
 .vs
+
+# macOS
+.DS_Store
+
+# Rider
+.idea/
 
 # Copied in by build script
 # templates/lib/.editorconfig
