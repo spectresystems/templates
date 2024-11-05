@@ -18,6 +18,7 @@ Task("Copy-Files")
     CopyFile("resources/CODE_OF_CONDUCT.md", "./templates/lib/CODE_OF_CONDUCT.md");
     CopyFile("resources/default.gitignore", "./templates/lib/.gitignore");
     CopyFile("resources/Directory.Build.props", "./templates/lib/src/Directory.Build.props");
+    CopyFile("resources/Directory.Packages.Lib.props", "./templates/lib/src/Directory.Packages.props");
     CopyFile("resources/Directory.Build.targets", "./templates/lib/src/Directory.Build.targets");
     CopyFile("resources/dotnet-tools.json", "./templates/lib/dotnet-tools.json");
     CopyFile("resources/global.json", "./templates/lib/global.json");
@@ -30,6 +31,7 @@ Task("Copy-Files")
     CopyFile("resources/CODE_OF_CONDUCT.md", "./templates/cli/CODE_OF_CONDUCT.md");
     CopyFile("resources/default.gitignore", "./templates/cli/.gitignore");
     CopyFile("resources/Directory.Build.props", "./templates/cli/src/Directory.Build.props");
+    CopyFile("resources/Directory.Packages.Cli.props", "./templates/cli/src/Directory.Packages.props");
     CopyFile("resources/Directory.Build.targets", "./templates/cli/src/Directory.Build.targets");
     CopyFile("resources/dotnet-tools.json", "./templates/cli/dotnet-tools.json");
     CopyFile("resources/global.json", "./templates/cli/global.json");
@@ -42,6 +44,7 @@ Task("Copy-Files")
     CopyFile("resources/CODE_OF_CONDUCT.md", "./templates/empty/CODE_OF_CONDUCT.md");
     CopyFile("resources/default.gitignore", "./templates/empty/.gitignore");
     CopyFile("resources/Directory.Build.props", "./templates/empty/src/Directory.Build.props");
+    CopyFile("resources/Directory.Packages.Empty.props", "./templates/empty/src/Directory.Packages.props");
     CopyFile("resources/Directory.Build.targets", "./templates/empty/src/Directory.Build.targets");
     CopyFile("resources/dotnet-tools.json", "./templates/empty/dotnet-tools.json");
     CopyFile("resources/global.json", "./templates/empty/global.json");
