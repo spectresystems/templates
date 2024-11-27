@@ -8,4 +8,4 @@ Remove-Item obj -Recurse
 dotnet pack --force
 
 Write-Host "Installing template..."
-dotnet new install ./bin/Release/SpectreSystems.Templates.8.0.2-preview.0.1.nupkg
+dotnet new install .artifacts/SpectreSystems.Templates.8.0.2-preview.0.3.nupkg
